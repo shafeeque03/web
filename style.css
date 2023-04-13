@@ -1,0 +1,158 @@
+.container-1{
+    background-color: #f6ae2d;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.col-6{
+    color: #424651;
+    font-weight: bold;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.milmalogo{
+    width: 170px;
+    height: 100px;
+}
+
+
+  
+h6:hover{
+    color: #f6ae2d;
+    cursor: pointer;
+}
+.carousel2{
+    height: 370px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.c1{
+    height: 370px;
+    width: 33.33%;
+    display: flex;
+    justify-content: space-around;
+}
+.c1half{
+    width: 50%;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.c1half h5{
+    color: #424651;
+}
+.c1half h6:hover{
+    color: #f6ae2d;
+}
+.mh{
+    width: 480px;
+    height: 460px;
+    margin-right: 160px;
+}
+.cont{
+    width: 38%;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gradient{
+    background: #f7f7f7 linear-gradient(to right, #424651, #f6ae2d);
+}
+.box-a{
+    width: 370px;
+    height: 400px;
+    background-image: url("Images/box1.png");
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+}
+.rgb1{
+    background-color: rgba(118,54,25,0.75);
+
+}
+.rgb2{
+    background-color: rgba(42,65,62,0.75);
+}
+.rgb3{
+    background-color: rgba(95,76,60,0.75);
+}
+.rgb4{
+    background-color: rgba(98,29,49,0.75);
+}
+.white{
+    color: white;
+}
+.bgb{
+    background-color: rgb(234, 247, 243);
+}
+.w2{
+    width: 200px;
+}
+
+.bgd{
+    background-color: #424651;
+}
+.end{
+    background-color: #f6ae2d;
+    width: 100%;
+}
+.srch{
+    width: 68px;
+    height: 50px;
+}
+.col{
+    color: #ffffff;
+
+}
+.col p:hover{
+    color: #f6ae2d;
+    cursor: pointer;
+
+}
+
+.ht{
+    width: 260px;
+    height: 330px;
+
+}
+.scrollTop{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #777777;;
+    color: #fff;
+    border-radius: 0px;
+    border-radius: 0px solid #66765f;;
+    cursor: pointer;
+    
+ }
+ .scrollTop:hover{
+     opacity: 0.5;
+ }
+ .fade-left {
+    opacity: 0; /* Set initial opacity to 0 */
+  }
+  
+  .fade-left.fade-in {
+    animation: fadeLeft 1s ease-in-out forwards; /* Add animation */
+  }
+  
+  @keyframes fadeLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px); /* Move div to the left by 20 pixels */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); /* Move div back to its original position */
+    }
+  }
